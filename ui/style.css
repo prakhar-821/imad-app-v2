@@ -20,3 +20,10 @@ body {
     height: 200px;
 }
 
+.container {
+                max-width: 328px;
+                margin: 95px auto;
+                color: grey;
+                font-family: sans-serif;
+            }
+
