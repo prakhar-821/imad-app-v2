@@ -1,5 +1,7 @@
 console.log('Loaded!');
 
-var element = document.getElementById("main");
+var img = document.getElementById("main");
 
-element.innerHTML = "new vaue";
+img.onClick = function() {
+    img.style.margin = "100 px";
+} ;
