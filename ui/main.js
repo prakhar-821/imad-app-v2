@@ -1,12 +1,10 @@
-console.log('Loaded!');
-
-var img = document.getElementById("main");
-
-var marginLeft=0;
-function moveRight() {
-     marginLeft=marginLeft + 10;
-     img.style.marginLeft=marginLeft + "px";
-}
-img.onClick = function() {
-    var interval= setInterval(moveRight,100);
+cvar button = document.getElementById('counter');
+button.onClick = function() {
+    
+    
+    
+    counter=counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
+    
 };
