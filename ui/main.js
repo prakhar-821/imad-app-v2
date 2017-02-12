@@ -13,5 +13,5 @@ var counter = 0;
 //};
 function counter() {
    var hi = document.getElementById("count1");
-   hi.innerHTML = counter++;
+   hi.innerHTML = counter++.toString();
 }
