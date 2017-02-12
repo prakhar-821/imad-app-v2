@@ -6,12 +6,13 @@ var counter = 0;
     
     
     
-   // counter = counter + 1;
+   // 
    
     //span.innerHTML = counter.toString();
   //  span.innerHTML = counter++;
 //};
 function counter() {
    var hi = document.getElementById("count1");
-   hi.innerHTML = counter++.toString();
+   counter = counter + 1;
+   hi.innerHTML = counter.toString();
 }
