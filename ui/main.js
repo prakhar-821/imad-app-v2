@@ -6,7 +6,7 @@ button.onClick = function() {
     
     
     
-    counter = counter + 1;
+   // counter = counter + 1;
    
     //span.innerHTML = counter.toString();
     span.innerHTML = counter++;
