@@ -1,13 +1,17 @@
 console.log("loaded");
-var button = document.getElementById('counter1');
- var span = document.getElementById('count1');
+//var button = document.getElementById('counter1');
+ //var span = document.getElementById('count1');
 var counter = 0;
-button.onClick = function() {
+//button.onClick = function() {
     
     
     
    // counter = counter + 1;
    
     //span.innerHTML = counter.toString();
-    span.innerHTML = counter++;
-};
+  //  span.innerHTML = counter++;
+//};
+function counter() {
+   var hi = document.getElementById("count1");
+   hi.innerHTML = counter++;
+}
