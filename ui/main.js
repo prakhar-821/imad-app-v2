@@ -1,7 +1,7 @@
 console.log("loaded");
 //var button = document.getElementById('counter1');
  //var span = document.getElementById('count1');
-var counter = 0;
+var counter1 = 0;
 //button.onClick = function() {
     
     
@@ -13,6 +13,6 @@ var counter = 0;
 //};
 function counter() {
    var hi = document.getElementById("count1");
-   counter = counter + 1;
-   hi.innerHTML = counter.toString();
+   counter1 = counter + 1;
+   hi.innerHTML = counter1.toString();
 }
