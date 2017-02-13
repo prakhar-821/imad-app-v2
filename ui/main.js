@@ -6,6 +6,6 @@ button.onClick = function() {
     
     counter1 = counter1 + 1;
     
-   span.innerHTML = counter1;
+   span.innerHTML = counter1.tostring();
 
 };
