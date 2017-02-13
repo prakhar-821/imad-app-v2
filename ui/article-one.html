@@ -1,34 +1,27 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>article-one</title>
-        <link href='/ui/style.css' rel='stylesheet' />
-    </head>
-    <body>
-        <div>
-            <a href='/'>Home</a>
-        </div>
-        <hr>
-        <h3>
-            Article One
-        </h3>
-        <div>
-            Day is Monday
-        </div>
-        <hr>
-        <div class="container">
-            <p>
-                This is my first article and i am very happy
-            </p>
-            <p>
-                This is my first article and i am very happy
-            </p>
-            <p>
-                This is my first article and i am very happy
-            </p>
-            <p>
-                This is my first article and i am very happy
-            </p>
-        </div>
-    </body>
-    
+<head>
+	<title>Form Validation Without Javascript</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+	<form action="action_page.php">
+		<h1>HTML and CSS Form Validation</h1>
+		<div class="form">
+		<input type="text" name="username" placeholder="Username" 
+		pattern=".{7,}" required>
+		 <input type="password" name="pw" placeholder="Password"
+		 pattern=".{6,}" required>
+		<input type="email" name="email" placeholder="Email ID"  
+		pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+		<input type="text" name="phoneNumber" pattern="[0-9]{10}" 
+			placeholder="Mobile Number" required>
+		<input type="text" name="WebAddress" placeholder="Web Address" 
+		pattern="https?://.+" required>
+		<div class="form">
+		<input type="submit" >
+    </div>
+    </div>
+	</form>
+</body>
 </html>
