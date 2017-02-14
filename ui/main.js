@@ -30,13 +30,13 @@ submit.onclick = function() {
             if (request.status === 200) {
              var names = request.responseText();
              names = JSON.parse(names);
-             var list = "";
-             for (var i=0; i<names.length; i++) {
-                list += '<li>' + name[i] + '<li>' ;
+             var list = '';
+             for (var i=0; i< names.length; i++) {
+                list += '<li>' + names[i] + '</li>' ;
         
              }
-         document.getElementById('namelist').innerHTML = list;
-        //ul.innerHTML = list;
+         var ul = document.getElementById('namelist');
+         ul.innerHTML = list;
         }
        }
    };
