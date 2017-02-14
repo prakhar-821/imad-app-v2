@@ -27,7 +27,7 @@ submit.onclick = function() {
    
    request.onreadystateChange = function() {
        if (request.readyState === XMLHttpRequest.DONE) {
-            if (request.status === 200){
+            if (request.status === 200) {
              var names = request.responseText();
              names = JSON.parse(names);
              var list = "";
@@ -43,7 +43,7 @@ submit.onclick = function() {
    
     var nameInput = document.getElementById('name');
     var name = nameInput.value; 
-    request.open('GET', 'http://prakhar-821.imad.hasura-app.io/submit-name?name=' + name, true);
+    request.open('GET', 'http://prakhar-821.imad.hasura-app.io/submit-name?name='+name, true);
     request.send(null);
 };
    
