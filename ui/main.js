@@ -1,11 +1,11 @@
-console.log("loaded");
+//console.log("loaded");
 var button = document.getElementById('hi');
-var span = document.getElementById('count1');
+
 var counter1 = 0;
-button.onClick = function() {
+button.onclick = function() {
     
     counter1 = counter1 + 1;
-    
-   span.innerHTML = counter1.tostring();
+    var span = document.getElementById('count1');
+   span.innerHTML = counter1.toString();
 
 };
