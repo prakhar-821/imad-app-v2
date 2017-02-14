@@ -15,6 +15,6 @@ button.onclick = function() {
    };
    
     
-    counter1 = counter1 + 1;
-   
+    request.open('GET', 'http://prakhar-821.imad.hasura-app.io/counter', true);
+    request.send(null);
 };
